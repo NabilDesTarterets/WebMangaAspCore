@@ -11,6 +11,8 @@
     <None Include="Models\MesExceptions\MonException.cs" />
     <None Include="Models\Dao\ServiceManga.cs" />
     <Compile Include="Models/ErrorViewModel.fs" />
+    <None Include="Controllers\MangaController.cs" />
+    <None Include="Views\Manga\Index.cshtml.cs" />
     <Compile Include="Controllers/HomeController.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>

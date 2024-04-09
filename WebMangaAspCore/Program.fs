@@ -42,6 +42,17 @@ module Program =
         app.UseRouting()
         app.UseAuthorization()
 
+       (*  app.MapControllerRoute
+        (
+        name:"mesmangas",
+        pattern:"mes_mangas",
+        defaults: new 
+        {
+            controller = "Manga",
+            action = "Index"
+        }
+        )*)
+
         app.MapControllerRoute(name = "default", pattern = "{controller=Home}/{action=Index}/{id?}")
 
         app.MapRazorPages()
