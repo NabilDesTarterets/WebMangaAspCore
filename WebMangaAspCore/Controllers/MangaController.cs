@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebmangaAspCore.Models.MesExceptions;
 using WebmangaAspCore.Models.Metier;
 using WebmangaAspCore.Models.Dao;
